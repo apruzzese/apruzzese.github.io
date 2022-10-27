@@ -1,0 +1,11 @@
+{
+    "name": "Ignore the Gap",
+    "short_name": "IgnoreGap",
+    "lang": "en",
+    "theme_color": "#FFFFFF",
+    "start_url": ".",
+    "display": "browser",
+    "background_color": "#FFFFFF",
+    "description":
+        "Hi, we are a Digital Technology & Design Advisory helping teams to kick off new products that are designed and engineered for a great experience."
+}
