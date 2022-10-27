@@ -1,0 +1,156 @@
+@media (min-width: 1000px) {
+  .image-73.shiftImage {
+    height: 449px;
+    margin: -13% 0 -6%;
+  }
+  /* .full-height-image-73 {
+    height: 449px;
+  } */
+}
+
+@media (min-width: 1024px) {
+  img.framed {
+      width: 849px;
+      height: 449px;
+      padding: 30px;
+  }
+}
+
+
+ul.disc {
+  font-size: 24px; line-height: 1.385; list-style: disc; opacity: 0.8;margin-bottom: 1em;
+}
+
+ul.disc li {
+  list-style: disc; margin-left: 1em;
+}
+
+ol.numbers {
+  font-size: 24px; line-height: 1.385; list-style: decimal; opacity: 0.8;margin-bottom: 1em;
+}
+
+ol.numbers li {
+  list-style: decimal; margin-left: 1em;
+}
+
+
+.cornerCard {
+  position: absolute;
+  height: 200px;
+  width: 120px;
+  bottom: 0px;
+  left: 20px;
+  transform: rotate(-12deg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 999px) {
+  .portrait-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 1000px) {
+
+  .portrait-gallery {
+      position: relative;
+  }
+
+  .portrait-gallery--inside {
+      display: flex;
+      position: relative;
+
+      height: 500px;
+      max-height: 500px;
+      padding-left: 10px;
+      justify-content: space-around;
+      align-items: flex-start;
+
+      margin-top: -100px;
+      overflow: hidden;
+      padding-left: 120px;
+      margin-right: -100px;
+      padding-right: 130px;
+  }
+
+  /* .portrait-gallery:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    height: 50vh;
+    left: -10%;
+    right: 0;
+  } */
+
+  .portrait-gallery .image-vertical-iphone {
+    /* margin-left: -200px; */
+    /* transform: scale(.75);
+    transform-origin: top left; */
+    margin: 0 -130px;
+  }
+  /* .portrait-gallery .image-vertical-iphone:nth-child(2) {
+    margin-left: 110px;
+  } */
+
+  .gallery-space {
+      min-height: 450px;
+  }
+}
+
+.underline-a-on-hover:hover a {
+  text-decoration: underline;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  opacity: 0.8;
+}
+
+
+@media (min-width: 1024px) {
+  .image-vertical-iphone {
+    /* margin: -13% 0 -6%; */
+    /* margin-top: -15%;
+    margin-bottom: -100%; */
+  }
+  /* .portrait-gallery {
+    margin-top: -15%;
+    margin-bottom: -100%;
+  } */
+}
+
+.image-vertical-iphone {
+    background-image: url(/images/portrait-iphone.png);
+    background-repeat: no-repeat;
+    padding: 117px 44px 120px 62px;
+    width: calc(344px + 62px + 44px);
+    height: calc(611px + 117px + 120px);
+    max-width: none;
+}
+
+.image-vertical-iphone img {
+    min-width: 344px;
+    width: 344px;
+}
+
+.animated-watch {
+    background-image: url(/images/watch-231-289.png);
+    background-repeat: no-repeat;
+    padding: 52px 76px 64px 58px;
+    width: calc(312px + 58px + 76px);
+    height: calc(390px + 52px + 64px);
+}
+
+/* TODO pause/restart  on slide selected */
+.animated-watch > video, .animated-watch > img {
+    position: absolute;
+    left: 58px;
+    top: 52px;
+    width: 240px;
+}
+
+.app-26 .material-icons {
+  font-size: 6em;
+}
